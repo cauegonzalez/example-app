@@ -58,7 +58,7 @@ sail artisan gzlayers:makeresource    # Create resource controller with a multil
 sail artisan gzlayers:maketrait       # Create prepare trait with a multilayer structure
 ```
 
-# Parameters available
+# Available parameters
 ```
     { name=name : Class (singular) for example User } (mandatory for all commands)
     { --table=default : Table name (plural) for example users | Default is generated-plural } (use it when creating a Model with a non default table name)
