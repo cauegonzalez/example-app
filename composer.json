@@ -12,7 +12,7 @@
         "laravel/tinker": "^2.8"
     },
     "require-dev": {
-        "cauegonzalez/gzlayers": "^1.1",
+        "cauegonzalez/gzlayers": "^2.0",
         "fakerphp/faker": "^1.9.1",
         "laravel/pint": "^1.0",
         "laravel/sail": "^1.18",
@@ -25,7 +25,8 @@
         "psr-4": {
             "App\\": "app/",
             "Database\\Factories\\": "database/factories/",
-            "Database\\Seeders\\": "database/seeders/"
+            "Database\\Seeders\\": "database/seeders/",
+            "CaueGonzalez\\GzLayers\\": "packages/cauegonzalez/gzlayers/src"
         }
     },
     "autoload-dev": {

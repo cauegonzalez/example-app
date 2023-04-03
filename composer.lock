@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1040490aef0add773043b416a522ec27",
+    "content-hash": "88bf96ca63098199d8fc1186fa29e63f",
     "packages": [
         {
             "name": "brick/math",
@@ -5411,16 +5411,16 @@
     "packages-dev": [
         {
             "name": "cauegonzalez/gzlayers",
-            "version": "v1.1.7",
+            "version": "v2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cauegonzalez/gzlayers.git",
-                "reference": "2299d04518723af2dac030be229de36b0a8d305d"
+                "reference": "b69224ef6ffdc6eb791348585b0fc35f4a020afd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cauegonzalez/gzlayers/zipball/2299d04518723af2dac030be229de36b0a8d305d",
-                "reference": "2299d04518723af2dac030be229de36b0a8d305d",
+                "url": "https://api.github.com/repos/cauegonzalez/gzlayers/zipball/b69224ef6ffdc6eb791348585b0fc35f4a020afd",
+                "reference": "b69224ef6ffdc6eb791348585b0fc35f4a020afd",
                 "shasum": ""
             },
             "require": {
@@ -5460,9 +5460,9 @@
             ],
             "support": {
                 "issues": "https://github.com/cauegonzalez/gzlayers/issues",
-                "source": "https://github.com/cauegonzalez/gzlayers/tree/v1.1.7"
+                "source": "https://github.com/cauegonzalez/gzlayers/tree/v2.0.0"
             },
-            "time": "2021-03-18T18:14:35+00:00"
+            "time": "2023-04-03T00:50:40+00:00"
         },
         {
             "name": "doctrine/cache",
