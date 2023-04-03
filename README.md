@@ -59,12 +59,30 @@ sail artisan gzlayers:maketrait       # Create prepare trait with a multilayer s
 ```
 
 # Available parameters
+```bash
+    { name=name : Class (singular) for example User } 
+      # (mandatory for all commands)
+    { --table=default : Table name (plural) for example users | Default is generated-plural } 
+      # (use it when creating a Model with a non default table name)
+    { --timestamps=false : Set default timestamps } 
+      # (use it when the table doesn''t have timestamps columns)
+    { --interactive=false : Interactive mode } 
+      # (use it when you want answer some questions about your structure without send other parameters)
+    { --all=false : Database based mode } 
+      # (use it when you want generate all entities based on the database tables)
+    { --overwrite=true : If file exists, determine if overwrite } 
+      # (use it as FALSE to avoid override existing files, if not passed, the standard behavior is overwrite the previous files)
+    { --businesslayer=bo : Determines which nomenclature to use for business layer | Default is BO and the other accepted is Service } 
+      # (use it when you want to change the business layer structure to use Service instead of BO)
 ```
-    { name=name : Class (singular) for example User } (mandatory for all commands)
-    { --table=default : Table name (plural) for example users | Default is generated-plural } (use it when creating a Model with a non default table name)
-    { --timestamps=false : Set default timestamps } (use it when the table doesn''t have timestamps columns)
-    { --interactive=false : Interactive mode } (use it when you want answer some questions about your structure without send other parameters)
-    { --all=false : Database based mode } (use it when you want generate all entities based on the database tables)
-    { --overwrite=true : If file exists, determine if overwrite } (use it as FALSE to avoid override existing files, if not passed, the standard behavior is overwrite the previous files)
-    { --businesslayer=bo : Determines which nomenclature to use for business layer | Default is BO and the other accepted is Service } (use it when you want to change the business layer structure to use Service instead of BO)
+
+# Usage examples
+```bash
+sail artisan gzlayers:makecrud group --overwrite=false --businesslayer=service
+
+sail artisan gzlayers:makecrud --all
+
+sail artisan gzlayers:makemodel group --overwrite=false
+
+sail artisan gzlayers:makeresource group
 ```
